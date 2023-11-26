@@ -54,3 +54,22 @@ to remove all the files from working area
 git clean
 git clean -n 
 git clean -f
+=================
+to delete the untracked files
+
+git clean -fd
+git clean 
+
+=======
+to get back from staging to workingarea
+git reset --hard
+
+====================
+to update the modified content from working area to staging
+
+git add -u
+
+[A[A[A[C[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cand also delete the content from working area===============
+to move the data that is modified in the working area how toupdate it to staging area
+
+git add -u
