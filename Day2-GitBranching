@@ -1,0 +1,35 @@
+========================
+To check the branches
+
+#git branch
+
+to create a new branch
+
+#git branch <branchname>
+
+#git branch Test
+
+in the main branch
+
+create files 
+touch file1
+[A#touch file1
+#git add file1
+#git commit -m "commit for file1 in main" file1
+#touch file2
+#git add file2
+#git commit -m "commit for[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[B[B[B[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[C[C[C[C[C[C[C[C[C[C[C[C[C[A[3~[3~[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[file1 comfile2 commit" file2
+#git checkout Test
+#touch file3
+#git add file3
+#git commit -m "file3 commit" file3
+#[A[A[A[C[C[C[C[C[C[pagtouch pagefile2
+#git add pagefile2
+#git commit -m "pagefile2 commit" pagefile2
+#touch pagefile3
+#git add pagefile3
+#git commit -m "pagefile[A[A[A[A[A[A[A[A[A[A[Atest1test[B[C[C[Ctest[C[C[C[C[C[Ctest2test[B[C[C[C[C[Ctest[C[C[C[C[C[C[C[C[C[C[C[Ctestfile1file[B[C[C[C[file[C[C[C[C[C[C[Cfile2file[B[C[C[Cfile[C[C[C[Ctest1test[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[C[C[[3~[3~[3~[3~test1[B[C[C[C[C[C[C[Ctest[3~[3~[C[C[C[C[C[C[C[C[C[C[C[C[Ctest2[C[C[C[Ctest2[B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[test3[B[C[C[C[C[C[Ctest3[B[C[C[C[C[C[C[C[C[test3 commit" test3
+
+#git checkout master
+#git merge Test
+#git log --oneline
